@@ -15,36 +15,24 @@
         </h1>
     </div>
     <div class="modal-content">
-        <button onclick="myFunction()">Try</button>
-                <p id="demo"></p>
-                <script>   
-                    var liberal = "https://www.politico.com/news/2020/02/28/trump-south-carolina-rally-coronavirus-118269";
-                    var neutral = "https://apnews.com/ebc90501a013f52d792e72069bd4ad7f";
-                    var conservative = "https://www.foxnews.com/politics/trump-rallies-in-north-charleston-on-eve-of-south-carolina-primary";
-                    var Word = liberal;
-                    function myFunction(){
-                        
-                            if(Word == "https://www.politico.com/news/2020/02/28/trump-south-carolina-rally-coronavirus-118269") {
-                                var AltArtOne = "OPEN";
-                                var link = AltArtOne.link("https://apnews.com/ebc90501a013f52d792e72069bd4ad7f");
-                                document.getElementById("demo").innerHTML = link;
-                            }
-                    }   
-                </script>
-
-        <button onclick="myFunction2()">Try</button>
-        <p id="demo1"></p>
-        <script>   
-            var Word = neutral;
-            function myFunction2(){
-                
-                    if(Word == "https://apnews.com/ebc90501a013f52d792e72069bd4ad7f") {
-                        var AltArtOne1 = "OPEN1";
-                        var link1 = AltArtOne1.link("https://www.foxnews.com/politics/trump-rallies-in-north-charleston-on-eve-of-south-carolina-primary");
-                        document.getElementById("demo1").innerHTML = link1;
-                    }
-            }   
-        </script>
+        <title>Title of the document</title>
+      <style>
+         .button {
+         background-color: #1c87c9;
+         border: none;
+         color: white;
+         padding: 20px 34px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+         }
+      </style>
+       <body>
+        <a href="https://www.politico.com/news/2020/02/28/trump-south-carolina-rally-coronavirus-118269" class="button">Trump rallies his base to treat coronavirus as a ‘hoax’</a>
+     </body>
     </div>
     <div class="modal-icons">
         <div class="flex-container">
