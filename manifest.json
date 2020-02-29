@@ -2,9 +2,10 @@
     "name": "Bias Gauge On YOU!",
     "version": "0.1",
     "description": "Extension for finding bias in THE USER",
-    "background": {
-        "scripts": ["BiasBehavior.js"],
-        "persistent": false
+    "content_scripts": {
+        "matches": ["<all_urls>"],
+        "js": ["BiasBehavior.js"],
+        
     },
     "manifest_version": 2
 }
