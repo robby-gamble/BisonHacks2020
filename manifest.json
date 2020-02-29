@@ -4,10 +4,13 @@
     "description": "Encouraging people to service themselves the truth.",
     
     "icons": {
-        "19": "Assets/icon.png"
+        "19": "Assets/icon.png",
+        "128": "Assets/icon.png"
     },  
     "browser_action": {
-        "default_icon": "Assets/icon.png"
+        "default_icon": "Assets/icon.png",
+        "default_popup": "Content.html"
     },  
-    "manifest_version": 2
+    "manifest_version": 2,
+    "permissions": ["activeTab"]
 }
